@@ -1,0 +1,417 @@
+.next{
+	position: fixed;
+	bottom: 120px;
+	right: 10%;
+	z-index: 999;
+}
+.next_updown{
+	animation: next 2s linear infinite;
+}
+.go{
+	position: fixed;
+	top: 5%;
+	right: 5%;
+	z-index: 999;
+}
+.fly{
+	position: absolute;
+	top: 20%;
+	right: 20%;
+}
+.shirt01 {
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	bottom: 335px;
+}
+.goods {
+	position: absolute;
+	left: 50%;
+	margin-left: -420px;
+	bottom: 150px;
+}
+.section1{
+	background: #fadd67 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+/*  第1屏 end  */
+.section2 {
+	background: #84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+	z-index: 2;
+}
+.computer {
+	width: 990px;
+	height: 500px;
+	position: absolute;
+	/* background: rgba(0,0,0,.3); */
+	
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	
+}
+.search{
+	width: 222px;
+	height: 45px;
+	background: url(../images/search.png);
+	position: absolute;
+	right: -30px;
+	bottom: 300px;
+	display: none;
+}
+.search_img{
+	position: absolute;
+	top:3px;
+	right: 30px;
+	opacity: 0;
+}
+.search_01{
+	position: absolute;
+	bottom: 300px;
+	right: 370px;
+	display: none;
+}
+.search_02{
+	height: 100px ;
+	position: absolute;
+	right: 270px;
+	bottom: 217px;
+	display: none;
+}
+.word_01{
+	position: absolute;
+	left: 50%;
+	bottom:550px;
+	transform: translateX(-50%);
+}
+.word_02{
+	position: absolute;
+	left: 50%;
+	bottom:550px;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+.shirt_02{
+	position:absolute;
+	bottom: 348px;
+	left: 395px;
+	width: 100px;
+	display: none;
+}
+.cover{
+	position: absolute;
+	bottom: 334px;
+	right: 496px;
+	width: 101px;
+	height: 90px;
+	z-index: 5;
+	background: #fff;
+	display: none;
+}
+/*  第2屏 end */
+.section3 {
+	background: #ef674d;
+	z-index: 1;
+}
+.main{
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	background: url(../images/main.png) no-repeat center center;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom:50px;
+}
+.select{
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	bottom: 5px;
+	right: 8px;
+/* 	background: pink; */
+}
+.btn{
+	position: absolute;
+	bottom: 10px;
+	
+}
+.shirt_03,.shirt_04{
+	position: absolute;
+	left: 115px;
+	bottom: 200px;
+	display: none;
+	
+}
+.shirt_04{
+	z-index: 1;
+}
+.img_1{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+.btn_1{
+	opacity: 0;
+}
+/*  第3屏 end */
+
+.section4 {
+	background: #fed url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+
+}
+.cloud{
+	position: absolute;
+	left: 50%;
+	bottom:550px
+}
+.word_04{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 500px;
+}
+.word_04_a{
+	opacity: 0 ;
+}
+.car{
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	transform: translateX(-50%);
+	z-index: 50;
+	
+}
+.carShirt{
+	position: absolute;
+	left: 50%;
+	bottom: 200px;
+	transform: translateX(-50%);
+	z-index: -1;
+	display: none;
+}
+.car_04{
+	
+}
+.note{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+.note_word{
+	position: absolute;
+	top: 66px;
+	left: 66px;
+	opacity: 0;
+}
+
+/*  第4屏 end */
+
+.section5 {
+	background: #d04759 url(../images/t1yisqfa4exxa3gmkg-2000-1500.png);
+	z-index: 3;
+	perspective: 500;
+	-webkit-perspective: 500;
+}
+.overHide{
+	position: absolute;
+	top: 0;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.word_5{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	display: none;
+}
+.card_5{
+	position: absolute;
+	left: 20%;
+	bottom: 200px;
+	z-index: 10;
+}
+.order_5{
+	position: absolute;
+	left: 27%;
+	bottom: 270px;
+}
+.shirt_5{
+	position: absolute;
+	bottom: 700px;
+	left:25%;
+	display:none;
+}
+.mouse_5{
+	position: absolute;
+	right: 20%;
+	bottom: 200px;
+}
+.mouseA{
+	display: none;
+}
+.hand_5{
+	position: absolute;
+	right: 24%;
+	bottom: -375px;
+}
+
+/*  第5屏 end */
+
+.section6 {
+	background: #84d9ed url(../images/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;
+}
+.box_06{
+	position: absolute;
+	left: 123px;
+	bottom: 500px;
+	z-index: 5;
+}
+.car_06{
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	z-index: 6;
+	
+}
+.cloud_06{
+	position: absolute;
+	left: 50%;
+	bottom: 550px;
+	animation: cloudM 60s linear infinite;
+}
+.pop_06{
+	position: absolute;
+	bottom: 119px;
+	right: 48%;
+	display: none;
+	z-index: 50;
+	
+}
+.man_06{
+	position: absolute;
+	right: 50%;
+	bottom: 0;
+	height: 100px;
+}
+.women_06{
+	position: absolute;
+	right: 315px;
+	height: 123px;
+	bottom: 116px;
+	display: none;
+}
+.word_06{
+	position: absolute;
+	left: 0%;
+	bottom: 479px;
+	display: none;
+}
+.shopping{
+	position: absolute;
+	right: 445px;
+	bottom: 400px;
+	opacity: 0;
+}
+.door{
+	position: absolute;
+	right: 285px;
+	bottom: 116px;
+	opacity: 0;
+	
+}
+
+/*  第6屏 end */
+
+.section7 {
+	background: #8ac060 url(../images/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat 50% 100%;
+}
+.star{
+	position: absolute;
+	left: 50%;
+	bottom: 439px;
+	margin-left: -295px;
+	width: 0;
+	height: 20px;
+	background: url(../images/star.png) no-repeat;
+	background-size: 97px;
+}
+.good_07{
+	position: absolute;
+	left: 50%;
+	bottom: 382px;
+	margin-left: -289px;
+	opacity: 0;
+}
+/*  第7屏 end */
+
+.section8 {
+	background: url(../images/ksgw.png);
+}
+.beginShop{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 365px;
+}
+.btn_08_a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.again{
+	position: absolute;
+	bottom: 403px;
+	left: 50%;
+	margin-left: 240px ;
+	cursor: pointer;
+}
+.hand_08{
+	position: absolute;
+	bottom: 0;
+}
+/*  第8屏 end */
+
+/* 动画 */
+.updown{
+	animation: fly 3s linear infinite;
+}
+.shirt-updown{
+	animation: shirt01 3s linear infinite;
+}
+.cloudMove{
+	animation: cloudM 60s linear infinite;
+}
+.word_5_1{
+	animation: wordTran 5s forwards;
+}
+@keyframes fly{
+	0%{top:10%;}
+	50%{top:25%;}
+	100%{top:10%;}
+}
+ @keyframes shirt01{  /* 类似于js 的声明函数 function */
+	50% {
+	 bottom: 360px;
+	}
+	100% {
+	 bottom: 335px;
+	}
+ }
+ @keyframes cloudM{
+ 	0%{left:50%;}
+ 	50%{left:5%;}
+ 	100%{left:50%;}
+ }
+ @keyframes wordTran{
+ 	100%{
+		transform: rotateY(360deg);
+		-webkit-transform: rotateY(360deg);
+	}
+ }
+ @keyframes next{
+ 	50%{bottom:100px}
+ 	100%{bottom:120px}
+ }
